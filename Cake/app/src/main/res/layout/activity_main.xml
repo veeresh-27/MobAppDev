@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/contact_215"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="31dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHighlight="#4f1b1d"
+        android:textColorHint="#979292"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/date_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/date_215" />
+
+    <TextView
+        android:id="@+id/textView4_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="contact"
+        android:textColor="#4f1b1d"
+        android:textColorHighlight="#4f1b1d"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/contact_215"
+        app:layout_constraintStart_toStartOf="@+id/contact_215" />
+
+    <TextView
+        android:id="@+id/textView_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="cakeshop"
+        android:textColor="#FF320133"
+        android:textColorHighlight="#4f1b1d"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="52dp"
+        android:text="today_s_cake_specials"
+        android:textColor="#4f1b1d"
+        android:textColorHighlight="#4f1b1d"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_215" />
+
+    <CheckBox
+        android:id="@+id/cheese_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="cheesecake"
+        android:textColor="#616161"
+        android:textColorHighlight="#4f1b1d"
+        app:layout_constraintStart_toEndOf="@+id/ice_215"
+        app:layout_constraintTop_toTopOf="@+id/ice_215" />
+
+    <CheckBox
+        android:id="@+id/marble_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="marble"
+        android:textColor="#616161"
+        android:textColorHighlight="#4f1b1d"
+        app:layout_constraintBaseline_toBaselineOf="@+id/chocolate_215"
+        app:layout_constraintStart_toStartOf="@+id/textView2_215" />
+
+    <CheckBox
+        android:id="@+id/cookie_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="cookie"
+        android:textColor="#616161"
+        android:textColorHighlight="#4f1b1d"
+        app:layout_constraintStart_toStartOf="@+id/marble_215"
+        app:layout_constraintTop_toBottomOf="@+id/marble_215" />
+
+    <CheckBox
+        android:id="@+id/chocolate_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="9dp"
+        android:text="chocolate"
+        android:textColor="#616161"
+        android:textColorHighlight="#4f1b1d"
+        app:layout_constraintStart_toEndOf="@+id/marble_215"
+        app:layout_constraintTop_toBottomOf="@+id/textView2_215" />
+
+    <CheckBox
+        android:id="@+id/velvet_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="red_velvet"
+        android:textColor="#616161"
+        android:textColorHighlight="#4f1b1d"
+        app:layout_constraintBottom_toTopOf="@+id/cheese_215"
+        app:layout_constraintStart_toStartOf="@+id/cheese_215" />
+
+    <CheckBox
+        android:id="@+id/ice_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ice_cream"
+        android:textColor="#616161"
+        android:textColorHighlight="#4f1b1d"
+        app:layout_constraintStart_toStartOf="@+id/chocolate_215"
+        app:layout_constraintTop_toBottomOf="@+id/chocolate_215" />
+
+    <TextView
+        android:id="@+id/textView1_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="date_of_delivery"
+        android:textColor="#4f1b1d"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/date_215"
+        app:layout_constraintEnd_toEndOf="@+id/date_215"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/date_215"
+        app:layout_constraintTop_toBottomOf="@+id/textView2_215"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <DatePicker
+        android:id="@+id/date_215"
+        android:layout_width="140dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="36sp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="24dp"
+        android:headerBackground="#320133"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/contact_215"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/marble_215"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <TextView
+        android:id="@+id/textView4_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="5dp"
+        android:text="special_message"
+        android:textColor="#4f1b1d"
+        android:textColorHighlight="#4f1b1d"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/msg_215"
+        app:layout_constraintStart_toEndOf="@+id/date_215" />
+
+    <EditText
+        android:id="@+id/msg_215"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="message_you_d_like_us_to_write_on_the_cake"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHighlight="#4f1b1d"
+        android:textColorHint="#979292"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4_2"
+        app:layout_constraintStart_toStartOf="@+id/textView4_" />
+
+    <Button
+        android:id="@+id/btn_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="place_order"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textColor="#4f1b1d"
+        android:textColorHighlight="#4f1b1d"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/name_215"
+        app:layout_constraintEnd_toEndOf="@+id/textView2_215"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2_215"
+        app:layout_constraintTop_toTopOf="@+id/name_215"
+        app:layout_constraintVertical_bias="0.576" />
+
+    <EditText
+        android:id="@+id/name_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="enter_your_name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHighlight="#4f1b1d"
+        android:textColorHint="#979292"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView4_215"
+        app:layout_constraintTop_toBottomOf="@+id/textView_215"
+        app:layout_constraintVertical_bias="0.009" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
