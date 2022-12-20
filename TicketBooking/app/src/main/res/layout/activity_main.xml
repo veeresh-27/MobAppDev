@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="247dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="32dp"
+        android:text="Ticket Booking"
+        android:textColor="#38207A"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="241dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="144dp"
+        android:ems="10"
+        android:hint="Enter your Name"
+        android:inputType="textPersonName"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="242dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:hint="Number of tickets"
+        android:inputType="textPersonName"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="298dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="340dp"
+        android:autofillHints="@string/material_motion_easing_linear"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="162dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="492dp"
+        android:backgroundTint="#929897"
+        android:text="Confirm"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

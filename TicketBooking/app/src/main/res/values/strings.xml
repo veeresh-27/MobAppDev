@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TicketBooking</string>
+    <string-array name="Gallery">
+        <item>Gold</item>
+        <item>Silver</item>
+        <item>Platinum</item>
+        <item>Diamond</item>
+    </string-array>
+</resources>
